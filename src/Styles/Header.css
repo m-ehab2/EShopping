@@ -1,0 +1,56 @@
+.Header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Comfortaa';
+}
+
+.Logo>img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.Left {
+    display: flex;
+    gap: 20px;
+}
+
+.Left>h2 {
+    font-size: 30px;
+}
+
+.Left>h2 {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.Left>h2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary);
+    transition: transform 0.25s ease-out;
+}
+
+.Left>h2:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+.Right{
+    display: flex;
+    gap: 20px;
+}
+.Generic_Icon{
+    color: black;
+    cursor: pointer;
+}
+.Generic_Icon:hover{
+    color: var(--primary);
+    transition: color 0.2s ease-out;
+}
