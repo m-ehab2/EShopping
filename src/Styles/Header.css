@@ -1,3 +1,7 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+}
 .Header {
     padding: 10px;
     display: flex;
@@ -7,17 +11,17 @@
 }
 
 .Logo>img {
-    height: 30px;
+    height: 20px;
     cursor: pointer;
 }
 
 .Left {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .Left>h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .Left>h2 {

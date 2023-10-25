@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Header from './LandingPage/Header';
 import WebFont from 'webfontloader';
+import Carasoul from './LandingPage/Carasoul';
 
 export default function Home() {
   
@@ -12,6 +13,9 @@ export default function Home() {
     });
    }, []);
     return (
-        <Header/>
-      );
+      <div className='Home'>
+      <Header/>
+      <Carasoul/>
+      </div>
+       );
 }
