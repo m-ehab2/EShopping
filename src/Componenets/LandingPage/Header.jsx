@@ -23,6 +23,7 @@ export default function Header() {
       <div className="Right">
         <TextField
           id="input-with-icon-textfield"
+          className="TextBox"
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">

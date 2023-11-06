@@ -41,7 +41,9 @@
     background-color: var(--primary);
     transition: transform 0.25s ease-out;
 }
-
+.textBox{
+    color: #7FB4D7;
+}
 .Left>h2:hover:after {
     transform: scaleX(1);
     transform-origin: center;
@@ -49,6 +51,7 @@
 .Right{
     display: flex;
     gap: 20px;
+    color: #7FB4D7;
 }
 .Generic_Icon{
     color: black;
